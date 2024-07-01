@@ -1,0 +1,27 @@
+.app-container {
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 20px 40px;
+}
+@media screen and (min-width: 576px) {
+  .app-container {
+    padding: 20px 50px;
+  }
+}
+
+.courses-heading {
+  font-size: 20px;
+}
+
+.courses-main-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loading-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}

@@ -1,0 +1,53 @@
+.Link {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  max-width: 200px;
+}
+@media screen and (min-width: 300px) {
+  .Link {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .Link {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Link {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Link {
+    width: 20%;
+  }
+}
+
+.course-list-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+@media screen and (min-width: 576px) {
+  .course-list-container {
+    padding: 20px;
+  }
+}
+
+.logo {
+  width: 50px;
+}
+
+.language-name {
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 8px;
+}
+@media screen and (min-width: 576px) {
+  .language-name {
+    padding-left: 10px;
+  }
+}
